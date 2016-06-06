@@ -58,9 +58,25 @@ h2 {font-size:20px;text-align:center;}
 	padding:20px 10px 40px 50px;
 
 }
+.col{
+	float:left;
+	display:block;
+	width:240px;
+	padding:0 0 0 40px;
+/*	border:1px solid red;	*/
+}
 /*__GENERAL__________________________________________________*/
+.clear{
+	clear:both;
+}
+.center{
+	text-align:center;
+}
 .small{
 	font-size: 15px;
+}
+.large{
+	font-size: 17px;
 }
 .tiny{
 	font-size: 12px;
@@ -71,3 +87,5 @@ h2 {font-size:20px;text-align:center;}
 .leftmargin{
     margin: 0px 0px 0px 40px;
 }
+a.selected {color:#007777;font-size:10px;}
+
