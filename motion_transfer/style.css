@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+* {margin:0; padding:0;outline:0;font:13px normal Verdana;}
+body {
+	background:#ffffff repeat center center;		
+	font-family:'Roboto Slab', Georgia, Times, serif;
+	font:normal 17px;
+	text-align:left;
+	color:#777777;
+	width:700px;
+	padding:0;
+	margin:0 auto;
+/*	border:1px solid red;	*/
+}
+img {margin:0; padding:0; border:none; outline:0;}
+
+a {
+	font-size:10px;
+	text-decoration:none;
+	color:#aaaaaa;
+	outline:0;
+	margin:auto 5px; 
+	padding:0;
+}
+a:hover, a:active {color:#007777;font-size:10px;}
+
+div {font-size:17px;display:block;}
+p,span {font-size:17px; margin:10px 0 10px 0;}
+
+ul {margin:20px 0 0 20px;}
+li {font-size:17px;}
+h1 {font-size:24px;text-align:center;}
+h2 {font-size:20px;text-align:center;}
+
+/*==================================================================*/
+/*__CONTENT__*/
+.header{
+	padding:40px 0 0 0;
+	margin:0 auto;
+	text-align:center;
+	display:block;
+}
+.menu{
+	margin:0 auto;
+	text-align:center;
+	display:block;
+}
+.hr{ 
+    display: block;
+	width:630px;
+	margin:20px auto;
+	background-color:#eeeeee;
+	height:3px;
+}
+.content{
+	margin:0 auto;
+	text-align:left;
+	display:block;
+	padding:20px 10px 40px 50px;
+
+}
+.col{
+	float:left;
+	display:block;
+	width:240px;
+	padding:0 0 0 40px;
+/*	border:1px solid red;	*/
+}
+/*__GENERAL__________________________________________________*/
+.clear{
+	clear:both;
+}
+.center{
+	text-align:center;
+}
+.small{
+	font-size: 15px;
+}
+.large{
+	font-size: 17px;
+}
+.tiny{
+	font-size: 12px;
+}
+.bold{
+    font-weight: bold;
+}
+.leftmargin{
+    margin: 0px 0px 0px 40px;
+}
+a.selected {color:#007777;font-size:10px;}
+
