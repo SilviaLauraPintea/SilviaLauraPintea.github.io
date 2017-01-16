@@ -1,0 +1,181 @@
+\documentclass[a4paper, oneside, final]{scrartcl} 
+\usepackage{soul}
+\usepackage{scrpage2}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{tabularx,colortbl}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{comment}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] 
+\newcommand{\gray}{\rowcolor[gray]{.90}}
+\usepackage{geometry}
+\geometry{a4paper,right=30mm,left=20mm,top=20mm}
+
+\begin{document}
+	\fontsize{9px}{11px}\selectfont
+	\pagestyle{empty} % non-numbered pages
+	\begin{center} 
+	\textsc{\Large\textsc{Curriculum Vitae}}
+		%====================================================================================================
+		%PERSONAL DATA_______________________________________________________________________________________
+		%====================================================================================================
+		\section{Personal Data}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			\textsc{Name}            & dr. Silvia-Laura Pintea\\
+			%\textsc{Citizenship}     & Romanian\\
+			%\textsc{Address}         & Louise Wentstraat 87, 1018 MS, Amsterdam, NL\\
+			\textsc{Phone no.}       & +31 (0)6 17194113\\ 
+			\textsc{E-mail address}  & Silvia.Laura.Pintea@gmail.com\\
+			\textsc{Driving License} & Categories \textbf{A}, \textbf{B} $\mid$ Since: 26 Apr. 2007\\
+			\textsc{Github Account}  & \href{https://github.com/SilviaLauraPintea}{https://github.com/SilviaLauraPintea}\\	
+			\multicolumn{2}{c}{}\\ 
+		\end{tabular}
+		%====================================================================================================
+		%EDUCATION___________________________________________________________________________________________
+		%====================================================================================================
+		\section{Education}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			%PHD__________________________________________________________________________________
+			\gray \textsc{Period}        & \textsc{2011 -- 2016}\\
+			\textsc{Institution}         & University van Amsterdam $\mid$ Amsterdam, NL\\
+			\textsc{Study}               & PhD in Computer Vision\\
+			\textsc{Languages \& Tools}  & C\slash C++, OpenCV, Dlib, Shogun, LibSVM, VlFeat, Yael, Caffe, Cuda-Convnet.\\
+			\textsc{Thesis Title}        & \textbf{\href{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}{Continuous Learning in Computer Vision}}. 
+				PhD in Computer Vision under the supervision of prof. dr. ir. Arnold Smeulders. 
+				Focuses on problems such as: motion prediction, object localization, video representation learning.\\
+			\multicolumn{2}{c}{}\\
+
+			%MASTER______________________________________________________________________________
+			\gray \textsc{Period}       & \textsc{2009  -- 2011}\\
+			\textsc{Institution}        & University van Amsterdam $\mid$ Amsterdam, NL\\
+			\textsc{Study}              & Master studies in Artificial Intelligence\\
+			\textsc{Average Grade}      & 8.31 (out of 10)\\
+			\textsc{Languages \& Tools} & C\slash C++, Python, Matlab, PHP\\
+			\textsc{Focus}              & Machine Learning, Computer Vision, Neural Networks, Game Theory.\\ 
+			\multicolumn{2}{c}{}\\
+	
+			%BACHELORS______________________________________________________________________________
+			\gray \textsc{Period}       & \textsc{2005 -- 2008}\\
+			\textsc{Institution}        & University of Bucharest, Faculty of Mathematics 
+				and Computer Science, Bucharest, RO\\
+			\textsc{Major field}        & Computer Science\\	
+			\textsc{Average Grade}      & 9.40 (out of 10)\\
+			\textsc{Languages \& Tools} & C\slash C++, Java, Pl\slash SQL, Assembler.\\ 
+			\multicolumn{2}{c}{}\\
+		\end{tabular}
+
+		%====================================================================================================
+		%EDUCATION___________________________________________________________________________________________
+		%====================================================================================================
+		\section{Work Experience}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			%Blippar_________________________________________________________________________
+			\gray \textsc{Employer}     & Delft University of Technology, Delft, NL\\
+			\textsc{Period}             & \textsc{July 2016 --- Present} \\
+			\textsc{Languages \& Tools} & C++, Python, Tensor Flow, Octave\slash Matlab\\
+			\textsc{Job Description}    & \textbf{Postdoctoral Research Fellow}. 
+				Working on the ``Technology in Motion'' project with the Leiden University Medical Center 
+				towards diagnosing and treatment of motor diseases.
+				Project link: \href{https://tim.lumc.nl}{https://tim.lumc.nl}\\
+			\multicolumn{2}{c}{}\\
+			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
+
+			%Blippar_________________________________________________________________________
+			\gray \textsc{Employer}     & Layar\slash Blippar, Amsterdam, NL\\
+			\textsc{Period}             & \textsc{January --- June 2016} \\
+			\textsc{Languages \& Tools} & C++, Eigen, Torch\\
+			\textsc{Job Description}    & \textbf{R\&D Engineer Computer Vision}. 
+				Improving the large-scale image retrieval system. 
+				Adding state-of-the-art Deep Learning methods for image retrieval, 
+				feature matching and binarization algorithms.\\
+			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
+
+			%WIZART STUDIOS________________________________________________________________________
+			\gray \textsc{Employer}      & Wizart Studios $\mid$ Bucharest, RO 
+				\small{(\href{http://www.wizartstudios.com}{www.wizartstudios.com})}\\
+			\textsc{Period}              & \textsc{2008 --- 2009} \\
+			\textsc{Languages and Tools} & PHP, JQuery, CSS, HTML, CakePHP, JavaScript\\ 
+			\textsc{Job Description}     & \textbf{Junior Web Programmer}. Frontend and backend web 
+				development.\\ 
+			\multicolumn{2}{c}{}\\
+		\end{tabular}
+
+		\section{Student Jobs}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			%Third Sight_________________________________________________________________________
+			\gray \textsc{Employer}     & ThirdSight, Amsterdam, NL\\
+			\textsc{Period}             & \textsc{April --- July 2011} \\
+			\textsc{Languages \& Tools} & C++, OpenCV\\
+			\textsc{Job Description}    & \textbf{Internship}. 
+				Face and smile detection.\\ 
+			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
+			%UvA NAO JOB__________________________________________________________________________
+			\gray \textsc{Employer}     & University of Amsterdam $\mid$ Amsterdam, NL\\
+			\textsc{Period}             & \textsc{August 2010} \\
+			\textsc{Languages \& Tools} & Python, OpenCV\\
+			\textsc{Job Description}    & \textbf{Volunteer work}. 
+				Working with \href{http://www.aldebaran-robotics.com/en}{Nao robots}.\\
+			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
+			%SUMMER JOB__________________________________________________________________________
+			\gray \textsc{Employer}  & Palmer Consulting $\mid$ Bucharest, RO\\
+			\textsc{Period}          & \textsc{June --- October 2007}\\
+			\textsc{Department}      & Restaurant\slash Food Service\slash Catering\\
+			\textsc{Job Description} & \textbf{Student Summer Job} $\mid$ Incline Village - Reno, US.\\
+			\multicolumn{2}{c}{}\\
+		\end{tabular}
+
+		%====================================================================================================
+		%PROJECTS____________________________________________________________________________________________
+		%====================================================================================================
+		\section{List Publications}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			\gray \textsc{Workshop} & ECCV, 2016\\
+			\textsc{Title}			& Making a case for learning motion representations with phase.\\ 
+			\multicolumn{2}{c}{}\\
+			% Featureless ________________________________________________________________________________
+			\gray \textsc{Conference}    & ICIP, 2016\\ 
+					\textsc{Title}		 & Featureless: Bypassing Feature Extraction In Action Categorization.\\
+			\multicolumn{2}{c}{}\\
+			% CVIU _______________________________________________________________________________________
+			\gray \textsc{Journal}       & CVIU, 2016\\
+				\textsc{Title}			 & Large Scale Gaussian Process for Overlap-based Object Proposal Scoring.\\	
+			\multicolumn{2}{c}{}\\
+			%DEJA VU______________________________________________________________________________________
+			\gray \textsc{Conference}   & ECCV, 2014\\
+				\textsc{Title}			& \href{https://staff.fnwi.uva.nl/s.l.pintea/dejavu/}{D\'{e}j\`{a} Vu: Motion Prediction in Static Images.}\\	
+			\textsc{Project Repository}  & \small\href{http://github.com/SilviaLauraPintea/DejaVu}
+				{http://github.com/SilviaLauraPintea/DejaVu}\\ 
+			\multicolumn{2}{c}{}\\
+			%PhD thesis____________________________________________________________________________________
+			\gray \textsc{PhD Thesis} & PhD Thesis, 2017\\
+			\textsc{Title}			     & Continuous Learning in Computer Vision.\\ 
+			\textsc{Thesis Link}  & \small\href{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}
+					{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}\\
+			\multicolumn{2}{c}{}\\
+			%Master thesis____________________________________________________________________________________
+			\gray \textsc{Master Thesis} & Master Thesis, 2011\\
+			\textsc{Title}			     & Orientation Estimation from ceiling-mounted cameras.\\ 
+			\textsc{Project Repository}  & \small\href{https://github.com/SilviaLauraPintea/OrientationEstimation}
+				{https://github.com/SilviaLauraPintea/OrientationEstimation}\\ 
+			\multicolumn{2}{c}{}\\
+		\end{tabular}
+		%====================================================================================================
+		\section{Additional Information}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			%LANGUAGES___________________________________________________________________________________
+			\textsc{Other}   & Programming adviser for Caffe usage for Deep Learning.\\
+			\textsc{Hobbies} & Indoor\slash mountain climbing, snowboarding, biking, skating, reading Science Fiction and Fantasy books, 
+				(caricature) drawing, cooking sushi.\\					 
+			\multicolumn{2}{c}{}\\
+
+			%References___________________________________________________________________________________
+			\textsc{References} & Name: Dr. Jan van Gemert\\
+							& E-mail: J.C.vanGemert@tudelft.nl\\[5px]	
+				            & Name: Prof. Dr. Ir. Arnold Smeulders\\
+				            & E-mail: A.W.M.Smeulders@uva.nl\\
+			\multicolumn{2}{c}{}\\
+		\end{tabular}
+	\end{center}
+\end{document}
+
