@@ -3,7 +3,7 @@
 body {
 	background:#ffffff repeat center center;		
 	font-family:'Roboto Slab', Georgia, Times, serif;
-	font:normal 17px;
+	font:normal 13px;
 	text-align:left;
 	color:#777777;
 	width:700px;
@@ -23,11 +23,11 @@ a {
 }
 a:hover, a:active {color:#007777;font-size:10px;}
 
-div {font-size:17px;display:block;}
-p,span {font-size:17px; margin:10px 0 10px 0;}
+div {font-size:13px;display:block;}
+p,span {font-size:13px; margin:10px 0 10px 0;}
 
 ul {margin:20px 0 0 20px;}
-li {font-size:17px;}
+li {font-size:13px;}
 h1 {font-size:24px;text-align:center;}
 h2 {font-size:20px;text-align:center;}
 
@@ -73,7 +73,7 @@ h2 {font-size:20px;text-align:center;}
 	text-align:center;
 }
 .small{
-	font-size: 15px;
+	font-size: 13px;
 }
 .large{
 	font-size: 17px;
