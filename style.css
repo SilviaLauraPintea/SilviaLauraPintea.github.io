@@ -5,7 +5,7 @@ body {
 	font-family:'Roboto Slab', Georgia, Times, serif;
 	font:normal 13px;
 	text-align:left;
-	color:#777777;
+	color:#555555;
 	width:700px;
 	padding:0;
 	margin:0 auto;
@@ -16,7 +16,7 @@ img {margin:0; padding:0; border:none; outline:0;}
 a {
 	font-size:10px;
 	text-decoration:none;
-	color:#aaaaaa;
+	color:#777777;
 	outline:0;
 	margin:auto 5px; 
 	padding:0;
