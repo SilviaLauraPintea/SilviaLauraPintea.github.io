@@ -21,7 +21,8 @@ a {
 	margin:auto 5px; 
 	padding:0;
 }
-a:hover, a:active {color:#007777;font-size:10px;}
+/*a:hover, a:active {color:#007777;font-size:10px;}*/
+a:hover, a:active {color:#2b65af;font-size:10px;}
 
 div {font-size:13px;display:block;}
 p,span {font-size:13px; margin:10px 0 10px 0;}
@@ -87,5 +88,6 @@ h2 {font-size:20px;text-align:center;}
 .leftmargin{
     margin: 0px 0px 0px 40px;
 }
-a.selected {color:#007777;font-size:10px;}
+a.selected {color:#2b65af;font-size:10px;}
+/*a.selected {color:#007777;font-size:10px;}*/
 
