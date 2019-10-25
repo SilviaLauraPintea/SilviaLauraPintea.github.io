@@ -7,164 +7,124 @@
 \usepackage{multirow}
 \usepackage{hyperref}
 \usepackage{comment}
-\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] 
+\titleformat{\section}{\small\scshape\raggedright}{}{0em}{}[\titlerule] 
 \newcommand{\gray}{\rowcolor[gray]{.90}}
 \usepackage{geometry}
-\geometry{a4paper,right=30mm,left=20mm,top=20mm}
+\geometry{a4paper,right=20mm,left=20mm,top=20mm}
 
 \begin{document}
 	\fontsize{9px}{11px}\selectfont
 	\pagestyle{empty} % non-numbered pages
 	\begin{center} 
-	\textsc{\Large\textsc{Curriculum Vitae}}
 		%====================================================================================================
 		%PERSONAL DATA_______________________________________________________________________________________
 		%====================================================================================================
-		\section{Personal Data}
-		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
-			\textsc{Name}            & dr. Silvia-Laura Pintea, Computer Vision Researcher\\
-			\textsc{Expertize}	     & Motion analysis, regression, future anticipation.\\
-			\textsc{E-mail address}  & Silvia[dot]Laura[dot]Pintea[at]gmail[dot]com\\
-			\textsc{Github Account}  & \href{https://github.com/SilviaLauraPintea}{https://github.com/SilviaLauraPintea}\\	
-			\multicolumn{2}{c}{}\\ 
-		\end{tabular}
+		\section{Dr. Silvia-Laura Pintea}
+		\begin{tabular}{ll}
+		    \begin{tabular}{l}
+                \includegraphics[width=3cm, height=3cm]{id}
+		    \end{tabular}&
+		    \begin{tabular}{l}
+                   \textbf{\textsc{Computer Vision Researcher}}\\
+                   \textsc{Roles:} Researcher, Engineer, Supervisor, Lecturer, Invited speaker.\\ 
+                   \textsc{Email:} Silvia[dot]Laura[dot]Pintea[at]gmail[dot]com\\
+                   \textsc{Webpage:} \href{http://silvialaurapintea.github.io}{http://silvialaurapintea.github.io} \vspace{5px}\\
+
+                    My work in Computer Vision has been focused on: motion analysis extended to \\
+                    medical applications in collaboration with Leiden University Medical Center, \\
+                    and regression problems, also combined with the use of Deep Learning. I am \\
+                    now looking into using Computer Vision knowledge to make Deep Networks more \\
+                    efficient and thus more environmental friendly.\\
+		        \end{tabular}\\
+            \end{tabular}
 		%====================================================================================================
 		%EDUCATION___________________________________________________________________________________________
 		%====================================================================================================
 		\section{Education}
-		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+		\begin{tabular}{r@{\hskip 0.3in}p{12.3cm}}
 			%PHD__________________________________________________________________________________
-			\gray \textsc{Period}        & \textsc{2011 -- 2016}\\
-			\textsc{Institution}         & University van Amsterdam $\mid$ Amsterdam, NL\\
-			\textsc{Study}               & PhD in Computer Vision\\
-			\textsc{Languages \& Tools}  & C\slash C++, OpenCV, Dlib, Shogun, LibSVM, VlFeat, Yael, Caffe, Cuda-Convnet.\\
-			\textsc{Thesis Title}        & \textbf{\href{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}{Continuous Learning in Computer Vision}}. 
-				PhD in Computer Vision under the supervision of prof. dr. ir. Arnold Smeulders. 
-				Focuses on problems such as: motion prediction, object localization, video representation learning.\\
-			\multicolumn{2}{c}{}\\
-
+			\gray \textsc{\textbf{PhD}}     & \textbf{\textsc{Computer Vision}}\\ 
+			\textsc{Institution}            & University van Amsterdam $\mid$ Amsterdam, NL\\
+            \textsc{Period}                 & \textsc{2011 -- 2016}\\
+			\textsc{Thesis Title}           & {\href{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}{Continuous Learning in Computer Vision}}\\
+			\textsc{Focus}                  & Motion prediction, object localization, video representation learning 
+            \vspace{5px}\\
 			%MASTER______________________________________________________________________________
-			\gray \textsc{Period}       & \textsc{2009  -- 2011}\\
-			\textsc{Institution}        & University van Amsterdam $\mid$ Amsterdam, NL\\
-			\textsc{Study}              & Master studies in Artificial Intelligence\\
-			\textsc{Average Grade}      & 8.31 (out of 10)\\
-			\textsc{Languages \& Tools} & C\slash C++, Python, Matlab, PHP\\
-			\textsc{Focus}              & Machine Learning, Computer Vision, Neural Networks, Game Theory.\\ 
-			\multicolumn{2}{c}{}\\
-	
+			\gray \textsc{\textbf{MSc}}         & \textbf{\textsc{Artificial Intelligence}}\\
+			\textsc{Institution}                & University van Amsterdam $\mid$ Amsterdam, NL\\
+			\textsc{Period \slash Avg. Grade}   & \textsc{2009  -- 2011} $|$ 8.31 (out of 10)\\
+			\textsc{Focus}                      & Machine Learning, Computer Vision, Neural Networks, Game Theory.
+            \vspace{5px}\\
 			%BACHELORS______________________________________________________________________________
-			\gray \textsc{Period}       & \textsc{2005 -- 2008}\\
-			\textsc{Institution}        & University of Bucharest, Faculty of Mathematics 
-				and Computer Science, Bucharest, RO\\
-			\textsc{Major field}        & Computer Science\\	
-			\textsc{Average Grade}      & 9.40 (out of 10)\\
-			\textsc{Languages \& Tools} & C\slash C++, Java, Pl\slash SQL, Assembler.\\ 
-			\multicolumn{2}{c}{}\\
+			\gray \textsc{\textbf{BSc}}         & \textbf{\textsc{Computer Science}}\\
+			\textsc{Institution}                & University of Bucharest, Faculty of Mathematics and Computer Science, Bucharest, RO\\
+			\textsc{Period \slash Avg. grade}   & \textsc{2005 -- 2008} $|$ 9.40 (out of 10)\\
+			\textsc{Focus}                      & Algorithms and data structures, Object oriented programming, Formal methods.\\ 
 		\end{tabular}
-
 		%====================================================================================================
 		%EDUCATION___________________________________________________________________________________________
 		%====================================================================================================
 		\section{Work Experience}
-		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+		\begin{tabular}{r@{\hskip 0.3in}p{13.3cm}}
 			%TUDelft_________________________________________________________________________
-			\gray \textsc{Employer}     & Delft University of Technology, Delft, NL\\
-			\textsc{Period}             & \textsc{Sept 2018 --- Present} \\
-			\textsc{Languages \& Tools} & C++, Python, TensorFlow, Caffe\\
-			\textsc{Job Description}    & \textbf{Postdoctoral Research Fellow}. 
+			\gray \textsc{\textbf{PostDoc}}     & \textsc{\textbf{Vision Lab, Delft University of Technology, Delft, NL}}\\
+			\textsc{Period}                     & \textsc{Sept 2018 --- Present} \\
+			\textsc{Job Description}    & 
 				Working on the ``Delphi'' project aiming at developing geo-imaging technology for the geo-energy industry. 
-				Project link: \href{http://www.delphi-consortium.com}{http://www.delphi-consortium.com}\\
-			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
-
+				Project link: \href{http://www.delphi-consortium.com}{http://www.delphi-consortium.com}
+            \vspace{5px}\\
 			%TUDelft_________________________________________________________________________
-			\gray \textsc{Employer}     & Delft University of Technology, Delft, NL\\
-			\textsc{Period}             & \textsc{July 2016 --- July 2018} \\
-			\textsc{Languages \& Tools} & C++, Python, TensorFlow, Caffe\\
-			\textsc{Job Description}    & \textbf{Postdoctoral Research Fellow}. 
-				Working on the ``Technology in Motion'' project with the Leiden University Medical Center 
+			\gray \textsc{\textbf{PostDoc}}     & \textsc{\textbf{Vision Lab, Delft University of Technology, Delft, NL}}\\
+			\textsc{Period}                     & \textsc{July 2016 --- July 2018} \\
+			\textsc{Job Description}            & Working on the ``Technology in Motion'' project with the Leiden University Medical Center 
 				towards diagnosing and treatment of motor diseases.
-				Project link: \href{https://tim.lumc.nl}{https://tim.lumc.nl}\\
-			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
-
-			%Blippar_________________________________________________________________________
-			\gray \textsc{Employer}     & Layar\slash Blippar, Amsterdam, NL\\
-			\textsc{Period}             & \textsc{January --- June 2016} \\
-			\textsc{Languages \& Tools} & C++, Eigen, Torch\\
-			\textsc{Job Description}    & \textbf{R\&D Engineer Computer Vision}. 
-				Improving the large-scale image retrieval system. 
-				Adding state-of-the-art Deep Learning methods for image retrieval, 
+				Project link: \href{https://tim.lumc.nl}{https://tim.lumc.nl}
+            \vspace{5px}\\
+			%Blippar________________________________________________________________________
+			\gray \textsc{\textbf{R\&D Engineer}}   & \textsc{\textbf{Layar\slash Blippar, Amsterdam, NL}}\\
+			\textsc{Period}                         & \textsc{January --- June 2016} \\
+			\textsc{Job Description}                &  Adding state-of-the-art Deep Learning methods for large-scale image retrieval, 
 				feature matching and binarization algorithms.\\
-			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
 		\end{tabular}
 
-%		\section{Student Jobs}
-%		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
-%			%Third Sight_________________________________________________________________________
-%			\gray \textsc{Employer}     & ThirdSight, Amsterdam, NL\\
-%			\textsc{Period}             & \textsc{April --- July 2011} \\
-%			\textsc{Languages \& Tools} & C++, OpenCV\\
-%%			\textsc{Job Description}    & \textbf{Internship}. 
-%				Face and smile detection.\\ 
-%			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
-%			%UvA NAO JOB__________________________________________________________________________
-%			\gray \textsc{Employer}     & University of Amsterdam $\mid$ Amsterdam, NL\\
-%			\textsc{Period}             & \textsc{August 2010} \\
-%			\textsc{Languages \& Tools} & Python, OpenCV\\
-%			\textsc{Job Description}    & \textbf{Volunteer work}. 
-%				Working with \href{http://www.aldebaran-robotics.com/en}{Nao robots}.\\
-%			\multicolumn{2}{c}{}\\ %this clears the space between two jobs
-%			%SUMMER JOB__________________________________________________________________________
-%			\gray \textsc{Employer}  & Palmer Consulting $\mid$ Bucharest, RO\\
-%			\textsc{Period}          & \textsc{June --- October 2007}\\
-%			\textsc{Department}      & Restaurant\slash Food Service\slash Catering\\
-%			\textsc{Job Description} & \textbf{Student Summer Job} $\mid$ Incline Village - Reno, US.\\
-%			\multicolumn{2}{c}{}\\
-%		\end{tabular}
-
 		%====================================================================================================
-		%PROJECTS____________________________________________________________________________________________
-		%====================================================================================================
-		\section{Recent Publications}
-		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
-			\gray \textsc{Journal}    & PR-Letters, 2018\\ 
-					\textsc{Title}	  & SL Pintea, et, al., ``Asymmetric kernels in Gaussian Process for learning target variance."\\
-			\multicolumn{2}{c}{}\\
+		\section{Key publications}
+        \begin{flushleft}
+			\textsc{\textbf{``Divide and Count: Generic Object Counting by Image Divisions"}}, T Stahl, SL Pintea, JC van Gemert, 
+            Transactions on Image Processing, 2019.\\[3px]
 			%  ________________________________________________________________________________
-			\gray \textsc{Conference}   & CVPR, 2017\\
-			\textsc{Paper}			    & Y Zhang, SL Pintea, JC van Gemert. ``Video Acceleration Magnification."\\ 
-            \textsc{Project Repository} & \small\href{https://acceleration-magnification.github.io}{https://acceleration-magnification.github.io} \\
-			\multicolumn{2}{c}{}\\
-			% Making ________________________________________________________________________________
-			\gray \textsc{Workshop} & wECCV, 2016\\
-			\textsc{Title}			& SL Pintea, JC van Gemert, ``Making a case for learning motion representations with phase."\\ 
-			\multicolumn{2}{c}{}\\
+			\textsc{\textbf{``Asymmetric kernels in Gaussian Process for learning target variance."}}, SL Pintea, JC van Gemert, AWM Smeulders, 
+            Pattern Recognition Letters, 2018\\[3px] 
+			%  ________________________________________________________________________________
+			\textsc{\textbf{``Video Acceleration Magnification"}}. "textsc{Conference}, Y Zhang, SL Pintea, JC van Gemert, 
+            Conference on Computer Vision and Pattern Recognition, 2017 
+            (\small\href{https://acceleration-magnification.github.io}{https://acceleration-magnification.github.io}) \\[3px]
 			%DEJA VU______________________________________________________________________________________
-			\gray \textsc{Conference}   & ECCV, 2014\\
-				\textsc{Title}			& \href{https://staff.fnwi.uva.nl/s.l.pintea/dejavu/}{SL Pintea, JC van Gemert, AWM Smeulders, ``D\'{e}j\`{a} Vu: Motion Prediction in Static Images."}\\	
-			\textsc{Project Repository}  & \small\href{http://github.com/SilviaLauraPintea/DejaVu}
-				{http://github.com/SilviaLauraPintea/DejaVu}\\ 
-			\multicolumn{2}{c}{}\\
-			%PhD thesis____________________________________________________________________________________
-			\gray \textsc{PhD Thesis} & PhD Thesis, 2017\\
-			\textsc{Title}			  & ``Continuous Learning in Computer Vision".\\ 
-			\textsc{Thesis Link}      & \small\href{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}
-					{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}\\
-			\multicolumn{2}{c}{}\\
-		\end{tabular}
+            \textsc{\textbf{``D\'{e}j\`{a} Vu: Motion Prediction in Static Images."}}, SL Pintea, JC van Gemert, AWM Smeulders, 
+            European Conference on Computer Vision, 2014, 
+            (\small\href{http://github.com/SilviaLauraPintea/DejaVu}{http://github.com/SilviaLauraPintea/DejaVu})\\[10px]
+
+            \textbf{Complete list of publications:} \href{https://scholar.google.nl/citations?user=shTkx9EAAAAJ&hl=en}{Google Scholar}\\
+        \end{flushleft}
 		%====================================================================================================
 		\section{Additional Information}
 		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
 			%LANGUAGES___________________________________________________________________________________
-			\textsc{Other}			 & Reviewer for NIPS-2017, ICPR-2018, NIPS-2018, TIP, Program committee member ECCV-2018 Workshop on ``Anticipating Human Behavior".\\
-									 & Programming adviser for Caffe usage for Deep Learning, TA for the bachelors Pattern Recognition course, co-lecturer for the bachelors Image Processing course.\\
-			\textsc{MSc supervision} & Yichao Zhang, Chengqiu Zhang, Xilin Li, Yue Liu, Omar Hommos, Xiaoming Wen, Jian Zheng.\\
-			\textsc{PhD supervision} & Vedran Vukotic, Abolfazi Nadi, Yancong Lin.\\[5px] 
-			\textsc{Hobbies}		 & Climbing, bouldering, biking, reading, drawing, cooking sushi.\\					 
-			\multicolumn{2}{c}{}\\
+            \textsc{Reviewer}       & NeurIPS'17, NeruIPS'18, ICPR'18, ICML'19, ICCV'19, BMVC'19, CVPR'20, TIP, IJCV\\
+            \textsc{Conference participation} & International participation: ECCV-14, workshop ECCV-16, ICIP-16, ICIP-18.\\ 
+                                     & Local participation: ICT.Open-16, NCCV-18. NCCV-19.\\
+            \textsc{Invited speaker} & NVPHBV-17, Delft-Leiden Deep Learning Seminars'19.\\
+			\textsc{Lecturer}		& Co-lecturer for the BSc Image Processing course, MSc Computer Vision course at TUDelft, 
+                                        teaching Assistant for the BSc Pattern Recognition course, MSc Computer Vision course.\\ 
+			\textsc{MSc supervisor} & Tobias Stahl, Yichao Zhang, Chengqiu Zhang, Xilin Li, Yue Liu, Omar Hommos, Xiaoming Wen, Jian Zheng, Ziyu Bao.\\
+			\textsc{PhD supervisor} & Vedran Vukotic, Abolfazi Nadi, Yancong Lin, Xin Liu.\\[5px] 
+            \textsc{Award}          & Best paper award for the Workshop on Hands, ECCV'18.\\  
+			\textsc{Languages \& Tools}  & Python, PyTorch, TensorFlow, C\slash C++, Caffe, Torch, PHP, Java, OpenCV, Dlib, Shogun, LibSVM, VlFeat, Yael, Cuda-Convnet, Matlab.\\
 
 			%References___________________________________________________________________________________
-			\textsc{References} & Dr. Jan van Gemert (J[dot]C[dot]vanGemert[at]tudelft[dot]nl)\\
-                                & Dr. Marco Loog (M[dot]Loog[at]tudelft[dot]nl)\\[5px]
+			\textsc{References} & Dr. Ir. Arnold Smeulders (A[dot]W[dot]M[Dot]Smeulders[at]uva[dot]nl)\\
+                                & Dr. Marco Loog (M[dot]Loog[at]tudelft[dot]nl)\\
+                                & Dr. Jan van Gemert (J[dot]C[dot]vanGemert[at]tudelft[dot]nl)\\
 			\multicolumn{2}{c}{}\\
 		\end{tabular}
 	\end{center}
