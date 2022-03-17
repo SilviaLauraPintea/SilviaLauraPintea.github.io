@@ -6,7 +6,7 @@ body {
 	font:normal 13px;
 	text-align:left;
 	color:#555555;
-	width:700px;
+	width:800px;
 	padding:0;
 	margin:0 auto;
 /*	border:1px solid red;	*/
@@ -22,7 +22,7 @@ a {
 	padding:0;
 }
 /*a:hover, a:active {color:#007777;font-size:10px;}*/
-a:hover, a:active {color:#2b65af;}
+a:hover, a:active, a:visited {color:#2b65af;}
 
 div {font-size:13px;display:block;}
 p,span {font-size:13px; margin:10px 0 10px 0;}
@@ -47,7 +47,7 @@ h2 {font-size:20px;text-align:center;}
 }
 .hr{ 
     display: block;
-	width:630px;
+	width:730px;
 	margin:20px auto;
 	background-color:#eeeeee;
 	height:3px;
