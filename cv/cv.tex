@@ -1,0 +1,141 @@
+\documentclass[a4paper, oneside, final]{scrartcl} 
+\usepackage{soul}
+\usepackage{scrpage2}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{tabularx,colortbl}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{comment}
+\titleformat{\section}{\small\scshape\raggedright}{}{0em}{}[\titlerule] 
+\newcommand{\gray}{\rowcolor[gray]{.90}}
+\usepackage{geometry}
+\geometry{a4paper,right=20mm,left=20mm,top=20mm}
+
+\begin{document}
+	\fontsize{9px}{11px}\selectfont
+	\pagestyle{empty} % non-numbered pages
+	\begin{center} 
+		%====================================================================================================
+		%PERSONAL DATA_______________________________________________________________________________________
+		%====================================================================================================
+		\section{Dr. Silvia-Laura Pintea}
+		\begin{tabular}{ll}
+		    \begin{tabular}{l}
+                \includegraphics[width=3cm, height=3cm]{id}
+		    \end{tabular}&
+		    \begin{tabular}{l}
+                   \textbf{\textsc{Computer Vision Researcher}}\\
+                   \textsc{Roles:} Researcher, Supervisor, Lecturer, Invited speaker, Engineer.\\ 
+                   \textsc{Email:} Silvia[dot]Laura[dot]Pintea[at]gmail[dot]com\\
+                   \textsc{Webpage:} \href{http://silvialaurapintea.github.io}{http://silvialaurapintea.github.io} \vspace{5px}\\
+
+                    My work is in the field of Computer Vision and Deep Learning, where I have extensive\\ 
+                    experience with video and image analysis, specifically scale-invariance,\\
+                    motion analysis and regression problems.\\
+
+                    Currently my work focuses on efficient and effective video analysis.\\
+		        \end{tabular}\\
+            \end{tabular}
+		%====================================================================================================
+		%EDUCATION___________________________________________________________________________________________
+		%====================================================================================================
+		\section{Education}
+		\begin{tabular}{r@{\hskip 0.3in}p{12.3cm}}
+			%PHD__________________________________________________________________________________
+			\gray \textsc{\textbf{PhD}}     & \textbf{\textsc{Computer Vision}}\\ 
+			\textsc{Institution}            & University van Amsterdam $\mid$ Amsterdam, NL\\
+            \textsc{Period}                 & \textsc{2011 -- 2016}\\
+			\textsc{Thesis Title}           & {\href{http://dare.uva.nl/search?identifier=90ad88f5-c16e-4450-86f2-23faa250fcab}{Continuous Learning in Computer Vision}}\\
+			\textsc{Focus}                  & Motion prediction, object localization, video representation learning 
+            \vspace{5px}\\
+			%MASTER______________________________________________________________________________
+			\gray \textsc{\textbf{MSc}}         & \textbf{\textsc{Artificial Intelligence}}\\
+			\textsc{Institution}                & University van Amsterdam $\mid$ Amsterdam, NL\\
+			\textsc{Period \slash Avg. Grade}   & \textsc{2009  -- 2011} $|$ 8.31 (out of 10)\\
+			\textsc{Focus}                      & Machine Learning, Computer Vision, Neural Networks, Game Theory.
+            \vspace{5px}\\
+			%BACHELORS______________________________________________________________________________
+			\gray \textsc{\textbf{BSc}}         & \textbf{\textsc{Computer Science}}\\
+			\textsc{Institution}                & University of Bucharest, Faculty of Mathematics and Computer Science, Bucharest, RO\\
+			\textsc{Period \slash Avg. grade}   & \textsc{2005 -- 2008} $|$ 9.40 (out of 10)\\
+			\textsc{Focus}                      & Algorithms and data structures, Object oriented programming, Formal methods.\\ 
+		\end{tabular}
+		%====================================================================================================
+		%EDUCATION___________________________________________________________________________________________
+		%====================================================================================================
+		\section{Work Experience}
+		\begin{tabular}{r@{\hskip 0.3in}p{13.3cm}}
+			%TUDelft_________________________________________________________________________
+			\gray \textsc{\textbf{Senior PostDoc}} & \textsc{\textbf{Division of Image Processing (LKEB), LUMC, NL}}\\
+			\textsc{Job Description}              & Focus on efficient analysis of surgery videos.\\
+			\textsc{Period}                        & \textsc{May 2022 --- Present} 
+            \vspace{5px}\\
+			%TUDelft_________________________________________________________________________
+			\gray \textsc{\textbf{Assistant Professor (TT)}} & \textsc{\textbf{Vision Lab, Delft University of Technology, Delft, NL}}\\
+		    \textsc{Job Description}            &  Focus on Deep Learning scale-invariance and efficiency\\
+			\textsc{Period}                     & \textsc{July 2020 --- February 2022} 
+            \vspace{5px}\\
+			%TUDelft_________________________________________________________________________
+			\gray \textsc{\textbf{PostDoc}}     & \textsc{\textbf{Vision Lab, Delft University of Technology, Delft, NL}}\\
+			\textsc{Period}                     & \textsc{July 2018 --- July 2020} \\
+			\textsc{Job Description}            & Geophysical seismic image analysis with the use of Deep Learning. 
+            \vspace{5px}\\
+			%TUDelft_________________________________________________________________________
+			\gray \textsc{\textbf{PostDoc}}     & \textsc{\textbf{Vision Lab, Delft University of Technology, Delft, NL}}\\
+			\textsc{Period}                     & \textsc{July 2016 --- July 2018} \\
+			\textsc{Job Description}            & Working on the ``Technology in Motion'' project with the Leiden University Medical Center 
+				towards diagnosing and treatment of motor diseases.
+				Project link: \href{https://tim.lumc.nl}{https://tim.lumc.nl}
+            \vspace{5px}\\
+			%Blippar________________________________________________________________________
+			\gray \textsc{\textbf{R\&D Engineer}}   & \textsc{\textbf{Layar\slash Blippar, Amsterdam, NL}}\\
+			\textsc{Period}                         & \textsc{January --- June 2016} \\
+			\textsc{Job Description}                &  Adding state-of-the-art Deep Learning methods for large-scale image retrieval, 
+				feature matching and binarization algorithms.\\
+		\end{tabular}
+
+		%====================================================================================================
+		\section{Key publications}
+        \begin{flushleft}
+
+            \textsc{\textbf{"Resolution learning in deep convolutional networks using scale-space theory"}}, SL Pintea, N Tomen, SF Goes, M Loog, JC van Gemert, Transactions on Image Processing (TIP), 2021.\\[3px]
+			%  ________________________________________________________________________________
+            \textsc{\textbf{"Deep continuous networks"}}, N Tomen, SL Pintea, JC Van Gemert", International Conference on Machine Learning (ICML), 2021\\[3px]
+			%  ________________________________________________________________________________
+			\textsc{\textbf{``No frame left behind: Full Video Action Recognition"}}, X Liu, SL Pintea, FK Nejadasl, O Booij, JC van Gemert. 
+            Computer Vision and Pattern Recognition (CVPR), 2020.\\[3px]
+			%  ________________________________________________________________________________
+            \textsc{\textbf{``D\'{e}j\`{a} Vu: Motion Prediction in Static Images."}}, SL Pintea, JC van Gemert, AWM Smeulders, 
+            European Conference on Computer Vision, 2014, 
+            (\small\href{http://github.com/SilviaLauraPintea/DejaVu}{http://github.com/SilviaLauraPintea/DejaVu})\\[10px]
+
+            \textbf{Complete list of publications:} \href{https://scholar.google.nl/citations?user=shTkx9EAAAAJ&hl=en}{https://scholar.google.nl/citations?user=shTkx9EAAAAJ\&hl=en}\\
+        \end{flushleft}
+		%====================================================================================================
+		\section{Additional Information}
+		\begin{tabular}{r@{\hskip 0.3in}p{11.3cm}}
+			%LANGUAGES___________________________________________________________________________________
+            \textsc{Reviewer}                   & CVPR, ECCV/ICCV, BMVC, ICPR, ICML, NeurIPS, TIP, IJCV\\
+            \textsc{Conference participation}   & International participation: CVPR 2021, ICCV 2021, ECCV 2020, ICIP 2018, ICIP 2016, workshop ECCV 2016, ECCV 2014\\
+                                                & Local participation: NCCV 2019, NCCV 2018, ICT.Open 2016, ICT.Open 2012\\
+            \textsc{Invited speaker}            & NVPHBV 2017, Nuctech meeting Delft, Delft-Leiden Deep Learning Seminars 2019.\\
+            \textsc{Invited lecturer}           & Deep Learning MSc course TUDelft, 2019\\
+			\textsc{Lecturer}		            & BSc Image Processing course, MSc Computer Vision course at TUDelft\\
+            \textsc{Teaching Assistant}         & BSc Short Course on Pattern Recognition, MSc Computer Vision course.\\ 
+			\textsc{MSc supervisor}             & Tobias Stahl, Yichao Zhang, Chengqiu Zhang, Xilin Li, Yue Liu, Omar Hommos, Xiaoming Wen, Jian Zheng, Ziyu Bao, Yordan Dimitrov, Nikhil Saldanha, Ziyu Bao.\\
+			\textsc{PhD supervisor}             & Vedran Vukotic, Abolfazi Nadi, Yancong Lin, Xin Liu.\\[5px] 
+            \textsc{Award}                      & Outstanding Reviewer award CVPR 2022-2021, ICCV 2021;\\ 
+                                                & Best paper award for the Workshop on Hands, ECCV 2018.\\  
+			\textsc{Languages \& Tools}         & Python, PyTorch, TensorFlow, C\slash C++, Caffe, Torch, PHP, 
+                                                Java, OpenCV, Dlib, Shogun, LibSVM, VlFeat, Yael, Cuda-Convnet, Matlab.\\
+
+			%References___________________________________________________________________________________
+			\textsc{References} & Dr. Ir. Femke Vossepoel (F[dot]C[dot]Vossepoel[at]tudelft[dot]nl)\\
+                                & Dr. Marco Loog (M.Loog@tudelft.nl)\\
+                                & Dr. Jan van Gemert (J[dot]C[dot]vanGemert[at]tudelft[dot]nl)\\
+			\multicolumn{2}{c}{}\\
+		\end{tabular}
+	\end{center}
+\end{document}
+
