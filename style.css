@@ -33,6 +33,7 @@ h2 {font-size:20px;text-align:center;}
 
 /*==================================================================*/
 /*__CONTENT__*/
+.selected {color:#2b65af;}
 .header{
 	padding:40px 0 0 0;
 	margin:0 auto;
