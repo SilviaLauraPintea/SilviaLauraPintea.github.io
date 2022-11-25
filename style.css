@@ -21,7 +21,7 @@ a {
 	margin:auto 5px; 
 	padding:0;
 }
-a:hover, a:active, a:visited {color:#2b65af;}
+a:hover, a:active {color:#2b65af;}
 
 div {font-size:13px;display:block;}
 p,span {font-size:13px; margin:10px 0 10px 0;}
