@@ -14,12 +14,12 @@ img {margin:0; padding:0; border:none; outline:0;}
 a {
     font-weight:bold;
 	text-decoration:none;
-    color:#167bb7;
+    color:#3a6b34;
 	outline:0;
 	margin:auto 5px; 
 	padding:0;
 }
-a:hover, a:active {color:#5abffa;}
+a:hover, a:active {color:#cbd28f;}
 
 div {display:block;}
 p,span {margin:10px 0 10px 0;}
@@ -31,7 +31,7 @@ h2 {font-size:20px;text-align:center;}
 
 /*==================================================================*/
 /*__CONTENT__*/
-.selected {color:#5abffa;}
+.selected {color:#e3b448;}
 .header{
 	padding:40px 0 0 0;
 	margin:0 auto;
