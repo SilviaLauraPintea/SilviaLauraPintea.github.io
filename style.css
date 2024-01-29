@@ -45,6 +45,9 @@ h2 {font-size:20px;text-align:center;}
 	text-align:center;
 	display:block;
 }
+.menu > a {
+    padding:0px 20px 0px 20px;
+}
 .hr{ 
     display: block;
 	width:840px;
