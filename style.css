@@ -21,7 +21,9 @@ a {
 }
 a:hover, a:active {color:#cbd28f;}
 
-div {display:block;}
+div {
+    display:block;
+}
 p,span {margin:10px 0 10px 0;}
 b {font-weight:bold;}
 i {font-style: italic;}
@@ -61,6 +63,16 @@ h2 {font-size:20px;text-align:center;}
 	display:block;
 	padding:20px 10px 40px 50px;
 
+}
+.overflow{
+	margin:50px 0px;
+	text-align:left;
+	display:block;
+    height:250px;
+    overflow-y: scroll;
+    border-top: solid #eeeeee;
+    border-bottom: solid #eeeeee;
+	#background-color:#efefef;
 }
 .col{
 	float:left;
